@@ -425,6 +425,7 @@ GameObject:
   - component: {fileID: 1424640565}
   - component: {fileID: 1424640564}
   - component: {fileID: 1424640568}
+  - component: {fileID: 1424640569}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -522,3 +523,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rotationSpeed: 10
+--- !u!114 &1424640569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424640563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00dcd1f0de4d515429f7156843994d8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipmentDatabase: {fileID: 11400000, guid: a6e455e9ae6573449b56d1e42868b4cd, type: 2}
+  maxInventorySlots: 10
+  sword: {fileID: 11400000, guid: dd456bb8f899a0f42936e0d00d14bb9e, type: 2}
