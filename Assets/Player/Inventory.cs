@@ -76,7 +76,7 @@ public class Inventory : MonoBehaviour
                 return false;
             }
         }
-        return false;
+        return true;
     }
 
     // Example method to demonstrate accessing equipment data from the inventory
