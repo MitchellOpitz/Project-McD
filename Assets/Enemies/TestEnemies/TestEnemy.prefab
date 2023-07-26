@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 188722177941584753}
   - component: {fileID: 1139740219525960288}
   - component: {fileID: 6516965944503919106}
+  - component: {fileID: 1163226516}
   m_Layer: 0
   m_Name: TestEnemy
   m_TagString: Untagged
@@ -109,3 +110,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+--- !u!114 &1163226516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4815709347858592817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06b63498926006047805eb3c1b0e5b17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootTable: {fileID: 11400000, guid: 75c24bbb9e6f3dd49816a235d4b89426, type: 2}

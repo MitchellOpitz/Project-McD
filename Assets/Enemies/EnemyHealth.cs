@@ -5,10 +5,12 @@ public class EnemyHealth : MonoBehaviour
     public int maxHealth = 100;
     private int currentHealth;
     private bool isDead = false;
+    private EnemyLoot enemyLoot;
 
     private void Start()
     {
         currentHealth = maxHealth;
+        enemyLoot = GetComponent<EnemyLoot>();
     }
 
     public void TakeDamage(int damage)
@@ -28,7 +30,10 @@ public class EnemyHealth : MonoBehaviour
     {
         Debug.Log("Enemy has died.");
         isDead = true;
-        // Implment loot drop functionality here
+        if (enemyLoot.lootTable != null)
+        {
+            enemyLoot.RollForLoot();
+        }
         Destroy(gameObject);
     }
 }

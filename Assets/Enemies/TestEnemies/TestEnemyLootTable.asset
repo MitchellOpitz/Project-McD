@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a000af3b5daae1842af90eea1027251b, type: 3}
+  m_Name: TestEnemyLootTable
+  m_EditorClassIdentifier: 
+  lootEntries:
+  - item: {fileID: 11400000, guid: 56bc1ad2210a56d4abbb407ced626b0c, type: 2}
+    dropChance: 1
+  - item: {fileID: 11400000, guid: 87f846be65242d6479cdbe651d01a98e, type: 2}
+    dropChance: 4
+  - item: {fileID: 11400000, guid: a2d653dbce35dd8429ad5c429ae5eb97, type: 2}
+    dropChance: 15
+  - item: {fileID: 11400000, guid: 1dbe133506f344b47b47100b149c6c17, type: 2}
+    dropChance: 30
+  - item: {fileID: 11400000, guid: dd456bb8f899a0f42936e0d00d14bb9e, type: 2}
+    dropChance: 50
