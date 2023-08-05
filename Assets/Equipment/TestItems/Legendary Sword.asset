@@ -15,6 +15,7 @@ MonoBehaviour:
   equipmentName: Legendary Sword
   description: A legendary sword.
   rarity: 4
+  prefab: {fileID: 1439415418573223391, guid: 58f60e3510d76774f87a55f903661f3c, type: 3}
   attackPower: 5
   attackSpeed: 1
   damageType: 0

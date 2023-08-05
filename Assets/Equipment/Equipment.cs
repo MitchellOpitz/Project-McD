@@ -6,4 +6,5 @@ public class Equipment: ScriptableObject
     public string equipmentName;
     public string description;
     public Rarity rarity;
+    public GameObject prefab;
 }

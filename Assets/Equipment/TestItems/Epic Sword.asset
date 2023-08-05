@@ -15,6 +15,7 @@ MonoBehaviour:
   equipmentName: Epic Sword
   description: An epic sword.
   rarity: 3
+  prefab: {fileID: 412144436997533600, guid: 9de34188e43a2134ebb74b6f2d31956f, type: 3}
   attackPower: 4
   attackSpeed: 2
   damageType: 0

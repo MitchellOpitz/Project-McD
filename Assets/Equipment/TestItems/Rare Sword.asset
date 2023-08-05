@@ -15,6 +15,7 @@ MonoBehaviour:
   equipmentName: Rare Sword
   description: A rare sword.
   rarity: 2
+  prefab: {fileID: 4042099002540715121, guid: 91a53c9d95795bf49afd61eed5e6533b, type: 3}
   attackPower: 3
   attackSpeed: 3
   damageType: 0

@@ -15,6 +15,7 @@ MonoBehaviour:
   equipmentName: Uncommon Sword
   description: An uncommon sword.
   rarity: 1
+  prefab: {fileID: 3881972994083291683, guid: 2e929a696e79e1b4b8039f431d79c38d, type: 3}
   attackPower: 2
   attackSpeed: 4
   damageType: 0

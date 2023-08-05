@@ -15,12 +15,17 @@ public class EnemyLoot : MonoBehaviour
                 // Check if the random number (0-1) is less than the drop chance
                 if (Random.value * 100 < lootEntry.dropChance)
                 {
-                    Debug.Log("Dropped: " + lootEntry.item.equipmentName + ".");
+                    DropLoot(lootEntry);
                     return;
-                    // Instantiate the dropped item at the enemy's position
-                    //Instantiate(lootEntry.item, transform.position, Quaternion.identity);
                 }
             }
         }
+    }
+
+    private void DropLoot(LootTable.LootEntry lootEntry)
+    {
+        Debug.Log("Dropped: " + lootEntry.item.equipmentName + ".");
+        // Instantiate the dropped item at the enemy's position
+        Instantiate(lootEntry.item.prefab, transform.position, Quaternion.identity);
     }
 }
