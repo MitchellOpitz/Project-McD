@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5931186752069826875}
   - component: {fileID: 5721693410363000840}
   - component: {fileID: 8521929683763497767}
+  - component: {fileID: -2475856478253239703}
   m_Layer: 0
   m_Name: EpicPrefab
   m_TagString: Untagged
@@ -96,3 +97,16 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-2475856478253239703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412144436997533600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93272385bdba0bb469d0242862dcdc5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipmentItem: {fileID: 11400000, guid: 87f846be65242d6479cdbe651d01a98e, type: 2}

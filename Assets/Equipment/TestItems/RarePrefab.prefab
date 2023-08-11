@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8065839609702890218}
   - component: {fileID: 8270818218917170137}
   - component: {fileID: 5468400651792206070}
+  - component: {fileID: 4142220172077356365}
   m_Layer: 0
   m_Name: RarePrefab
   m_TagString: Untagged
@@ -96,3 +97,16 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4142220172077356365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042099002540715121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93272385bdba0bb469d0242862dcdc5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipmentItem: {fileID: 11400000, guid: a2d653dbce35dd8429ad5c429ae5eb97, type: 2}

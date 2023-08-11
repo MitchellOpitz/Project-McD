@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4903893817540551492}
   - component: {fileID: 6423934392565207671}
   - component: {fileID: 6918116689204105560}
+  - component: {fileID: -4718921229289091188}
   m_Layer: 0
   m_Name: LegendaryPrefab
   m_TagString: Untagged
@@ -96,3 +97,16 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-4718921229289091188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439415418573223391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93272385bdba0bb469d0242862dcdc5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipmentItem: {fileID: 11400000, guid: 56bc1ad2210a56d4abbb407ced626b0c, type: 2}
